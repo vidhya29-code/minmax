@@ -1,0 +1,6 @@
+t=int(input())
+for i in range(t):
+n=int(input())
+k=list(map(int,input().split()))
+k.sort()
+print((len(k)-1)*k[0])
